@@ -6,6 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	_ "github.com/jinzhu/gorm"
 
 	"github.com/toastsandwich/book-management-system-api/pkg/routes"
 )
